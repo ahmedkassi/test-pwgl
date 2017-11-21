@@ -5,7 +5,8 @@ import javax.persistence.*;
 @Entity
 @SuppressWarnings("serial")
 public class Actuator {
-
+//add ID annotation to identify each actuator
+    @Id @GeneratedValue
     private Long id;
 
     private Integer speed;

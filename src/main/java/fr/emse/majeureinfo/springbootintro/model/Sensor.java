@@ -5,7 +5,7 @@ import javax.persistence.*;
 @Entity
 @SuppressWarnings("serial")
 public class Sensor {
-
+    @Id @GeneratedValue
     private Long id;
 
     private Integer signal;
